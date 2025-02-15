@@ -1,0 +1,334 @@
+/*Body*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: white;
+}
+
+/* Navigation Bar */
+header {
+    background: #2c40c6;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li .active {
+    color: yellow;
+    font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0.2em 0.6em;
+  display: inline-block;
+  font-weight: normal;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: yellow;
+}
+
+/* Banner */
+.apply-banner {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.apply-banner h1 span {
+    color: yellow;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.apply-banner h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.apply-banner button {
+    background: black;
+    color: white;
+    border-color: white;
+    border: 4px solid white;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+}
+
+/*Application Form*/
+
+.application-form {
+    background: #111;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.application-form h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+section p {
+    text-align: center;
+}
+
+#apply p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: none;
+    padding: 20px;
+    font-size: 17px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; 
+}
+
+input {
+  margin-top: 10px;
+}
+
+.left {
+    width: 40%;
+    float: left;
+}
+
+.right {
+    width: 40%;
+    float: right;
+}
+
+.left label {
+    width: 100%
+}
+
+.right label  {
+    width: 100%;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 23px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border: 4px solid white;
+}
+
+textarea {
+    height: 80px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+fieldset {
+    border: none; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gender-align legend {
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    width: 100%
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.right {
+  display: flex;
+  gap: 20px; /* Space between Male and Female */
+}
+
+.radio-left {
+    float: left;
+    border: 4px solid white;
+    padding: 6px;
+    width: 210px;
+}
+
+.radio-right {
+    float: right;
+    border: 4px solid white;
+    padding: 6px;
+    width: 210px;
+}
+
+#gencap {
+    text-align: right;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-right: 12px;
+    font-size: 19px;
+}
+
+
+/* Skill List */
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.skills input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+#other-skills-textarea {
+    display: none;
+    width: 100%;
+    height: 80px;
+    margin-top: 8px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Hide textarea initially */
+#other-skills-textarea {
+    display: none;
+    width: 100%;
+    height: 80px;
+    margin-top: 8px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.skill-section {
+    display: inline-block;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+footer p {
+    font-size: 24px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 15px;
+    font-family: Helvetica;
+}
+
+.footer-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.footer-section p:first-child {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Submit Button */
+
+.submit-btn {
+    background: yellow;
+    margin-top: 50px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.submit-btn:focus::after {
+    content: "Submitted!";
+    display: inline;
+}
+
+.submit-btn:focus {
+    color: white;
+    background-color: green;
+    outline: none;
+}
+
+.submit-btn:focus span {
+    display: none;
+}
